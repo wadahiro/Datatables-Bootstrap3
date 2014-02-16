@@ -2,7 +2,7 @@
 	// Set up DT_bootstrap appropriately for the environment.
 	if (typeof define === 'function' && define.amd) {
 		// AMD
-		define(['jquery', 'dataTable', 'bootstrap'], function($) {
+		define(['jquery', 'datatables', 'bootstrap'], function($) {
 			factory($);
 		});
 	} else {
